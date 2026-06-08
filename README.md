@@ -51,13 +51,13 @@
 
 ## 🛠️ 技术栈
 
-| 领域         | 技术                                                          |
-|--------------|---------------------------------------------------------------|
-| **嵌入式**   | STM32F103ZET6 (ARM Cortex-M3)、Keil5、HAL库、FreeRTOS(任务调度) |
-| **通信协议** | MQTT、TCP/IP、BLE（低功耗蓝牙）、USART                        |
-| **云服务**   | EMQX (MQTT Broker)、阿里云ECS                                 |
-| **移动端**   | UniApp (Vue.js)、HTML5、CSS3、JavaScript                      |
-| **调试工具** | MQTTX、Xshell、sscom、ST-Link                                 |
+| 领域         | 技术                                                            |
+|--------------|----------------------------------------------------------------|
+| **嵌入式**   | STM32F103ZET6 (ARM Cortex-M3)、Keil5、HAL库、时间片轮询(任务调度) |
+| **通信协议** | MQTT、TCP/IP、BLE（低功耗蓝牙）、USART                           |
+| **云服务**   | EMQX (MQTT Broker)、阿里云ECS                                   |
+| **移动端**   | UniApp (Vue.js)、HTML5、CSS3、JavaScript                        |
+| **调试工具** | MQTTX、Xshell、sscom、ST-Link                                   |
 
 ---
 
