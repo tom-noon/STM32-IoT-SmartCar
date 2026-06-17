@@ -166,7 +166,7 @@ smart-car-project/
 │   ├── pages/                    # 登录、数据展示、控制、蓝牙页面
 │   ├── utils/                    # MQTT工具、蓝牙API封装
 │   └── store/                    # Vuex状态管理（温度、湿度、速度）
-├── docs/                         # 毕业设计说明书PDF、需求文档
+├── docs/                         # 说明书PDF
 └── README.md                     # 本文件
 ```
 
