@@ -157,16 +157,15 @@ graph LR
 
 ```text
 smart-car-project/
-├── hardware/                     # 硬件设计图、接线说明
-├── stm32_code/                   # 嵌入式源码（Keil工程）
-│   ├── Core/                     # 主程序、中断处理
-│   ├── Drivers/                  # 各模块驱动（DHT11, OLED, Motor...）
-│   └── aliyun_connect.c          # MQTT连接及数据封装
-├── app/                          # UniApp安卓源码
+├── stm32_code/                # 嵌入式源码（Keil工程）
+│   ├── Core/                  # 主程序、中断处理、任务调度入口
+│   ├── Drivers/               # 各模块驱动（DHT11, OLED, Motor...）
+│   ├── Net/                   # MQTT连接、Wi-Fi配网、数据封装
+│   └── Sys/                   # 系统配置、时钟、低功耗预留接口
+├── app_code/                     # UniApp安卓源码
 │   ├── pages/                    # 登录、数据展示、控制、蓝牙页面
 │   ├── utils/                    # MQTT工具、蓝牙API封装
 │   └── store/                    # Vuex状态管理（温度、湿度、速度）
-├── docs/                         # 说明书PDF
 └── README.md                     # 本文件
 ```
 
