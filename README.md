@@ -173,7 +173,7 @@ smart-car-project/
 │   ├── utils/                    # MQTT工具、蓝牙API封装
 │   └── store/                    # Vuex状态管理（温度、湿度、速度）
 ├── images/                         # 小车图和APP界面图
-└── README.md                     # 本文件
+└── README.md                       # 本文件
 ```
 
 ---
