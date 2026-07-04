@@ -19,6 +19,12 @@
 
 ---
 
+## 📸 实物展示
+![小车实物](./images/car.png)
+![OLED显示](./images/oled.png)
+
+---
+
 ## 🎯 主要功能
 
 ### 硬件端（智能小车）
@@ -166,6 +172,7 @@ smart-car-project/
 │   ├── pages/                    # 登录、数据展示、控制、蓝牙页面
 │   ├── utils/                    # MQTT工具、蓝牙API封装
 │   └── store/                    # Vuex状态管理（温度、湿度、速度）
+├── images/                         # 小车图和APP界面图
 └── README.md                     # 本文件
 ```
 
