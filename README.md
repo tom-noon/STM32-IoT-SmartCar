@@ -104,7 +104,7 @@ graph LR
 
 | 登录界面 | 数据展示 | 设备控制 | 蓝牙通信 |
 |:---:|:---:|:---:|:---:|
-| ![登录](./screenshots/login.png) | ![数据](./screenshots/dashboard.png) | ![控制](./screenshots/control.png) | ![蓝牙](./screenshots/bluetooth.png) |
+| ![登录](images/login.png) | ![数据](images/dashboard.png) | ![控制](images/control.png) | ![蓝牙](images/bluetooth.png) |
 
 ---
 
